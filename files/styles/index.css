@@ -1,0 +1,57 @@
+html body {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    zoom: 90%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#element {
+    scrollbar-width: none;
+}
+
+html {
+    background-color: black;
+    color: white;
+    background-image: url('../images/PrairieWind.bmp');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+code {
+    font-family: monospace;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.downloadBtn {
+    color: black;
+    background-color: aliceblue;
+    border-style: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.githubRoundedCard {
+    border-radius: 10px;
+    border-style: none;
+}
+
+hr {
+    border-radius: 10px;
+}
+
+.reducedHR {
+    max-width: 100vh;
+}
