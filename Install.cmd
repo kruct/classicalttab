@@ -6,7 +6,7 @@ echo Installing NTAltTab...
 echo.
 echo Made by Lucas Gabriel (lucmsilva)
 echo https://github.com/kruct/classicalttab
-reg import /s NTAltTab.reg
+reg import /s CAT.reg
 echo.
 echo Installed with success! Restarting Windows Explorer...
 echo.
