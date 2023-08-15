@@ -3,9 +3,7 @@ function isWindowsOS() {
 }
 
 function showAlert() {
-    if (isWindowsOS()) {
-        
-    } else {
+    if (!isWindowsOS()) {
         var alertDiv = document.createElement('div');
         alertDiv.style.position = 'fixed';
         alertDiv.style.top = '50%';
@@ -16,7 +14,7 @@ function showAlert() {
         alertDiv.style.border = '1px solid #f5c6cb';
         alertDiv.style.borderRadius = '4px';
         alertDiv.style.textAlign = 'center';
-        alertDiv.innerHTML = '<p>ClassicAltTab is not supported in your system. Please use a Windows environment.</p>';
+        alertDiv.innerHTML = '<h1>ClassicAltTab is not supported in your system. Please use a Windows environment.</h1>';
         document.body.appendChild(alertDiv);
     }
 }
