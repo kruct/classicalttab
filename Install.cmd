@@ -6,7 +6,7 @@ echo Installing ClassicAltTab...
 echo.
 echo Made by Lucas Gabriel (lucmsilva)
 echo https://github.com/kruct/classicalttab
-reg import /s CAT.reg
+reg import CAT.reg
 echo.
 echo Installed with success! Restarting Windows Explorer...
 echo.
